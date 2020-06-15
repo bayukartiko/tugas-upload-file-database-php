@@ -1,9 +1,3 @@
-<?php 
-
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +6,7 @@
     <title>Bayu Kartiko</title>
 </head>
 <body>
+    <!-- harap tambahkan folder bernama 'file' terlebih dahulu agar bisa tersimpan filenya -->
     <h1>Upload file ke database dengan PHP Bayu Kartiko</h1>
     <form action="upload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="file" id="">
